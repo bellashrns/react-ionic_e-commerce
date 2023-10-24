@@ -1,0 +1,72 @@
+.product {
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.productImage::part(image) {
+    border-radius: 10px;
+    margin-bottom: 5px;
+}
+
+.productTitle {
+    font-size: 10px;
+}
+
+.productSubtitle {
+    font-size: 8px;
+    margin-bottom: 5px;
+}
+
+.profileCard {
+    border-radius: 20px;
+    margin: 40px;
+    height: 400px;
+}
+
+.profilePic::part(image) {
+    width: 100px;
+    border-radius: 500px;
+}
+
+.cartImage::part(image) {
+    border-radius: 10px;
+    margin-bottom: 5px;
+    width: 60px;
+}
+
+.cartQty {
+    font-size: 18px;
+    margin: 8px 0px;
+}
+
+.cartProduct {
+    margin-top: 10px;
+}
+
+.border {
+    border: 1px solid #e0e0e0;
+    height: 3px;
+}
+
+.detailProduct {
+    margin-top: 30px;
+}
+
+.BtnTop {
+    margin-top: 20px;
+    margin-left: 10px;
+}
+
+.wishlistImage::part(image) {
+    border-radius: 20px;
+    width: 80px;
+    margin: 10px 0;
+}
+
+ion-badge {
+    z-index: 1;
+    position: absolute;
+    left: 0px;
+    top: 20px;
+    background-color: red;
+}
